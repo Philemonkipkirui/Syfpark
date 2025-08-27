@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "54095230231",
+    "project_id": "geecko-d0f14",
+    "storage_bucket": "geecko-d0f14.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:54095230231:android:32f0e9020d5f2258dd7352",
+        "android_client_info": {
+          "package_name": "com.example.syfpark"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "54095230231-r8hdt1s54m73kjig4mrl2hbr5mj8jq77.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.syfpark",
+            "certificate_hash": "ad25f4ead4f814f0bc4d3bfaf5b372583033783f"
+          }
+        },
+        {
+          "client_id": "54095230231-c96f74mm5lonluumaebvbqka596dsas7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYCTppBRZyo7aIz8LNh-cXyS3aS-uJbOw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "54095230231-c96f74mm5lonluumaebvbqka596dsas7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "54095230231-ib567c07r4vtlbu9us35adim81m374br.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.syfpark"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
