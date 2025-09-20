@@ -15,9 +15,10 @@ class MallService {
     Mall(
       id: 'ridgeways',
       name: 'RidgeWays Mall',
-      latitude: -1.2578,   // mock coords
-      longitude: 36.8375,  // mock coords
+      latitude: -1.225032,   // mock coords
+      longitude: 36.839835,  // mock coords
       vehicleinfo_apiUrl:'http://ridgemall.syfe.co.ke/apidetails/',
+      vehiclepayment_apiUrl:'http://ridgemall.syfe.co.ke/apipushpayment//',
       proximityRadiusMeters: 600,
       branding: MallBranding(
         primary: const Color(0xFFEEEEEE),
@@ -53,10 +54,11 @@ class MallService {
     Mall(
       id: 'rng',
       name: 'RNG Mall',
-      latitude: -1.2892,   // mock coords
-      longitude: 36.8219,  // mock coords
+      latitude: -1.285506,   // mock coords
+      longitude: 36.828712,  // mock coords
       proximityRadiusMeters: 700,
       vehicleinfo_apiUrl:'http://ridgemall.syfe.co.ke/apidetails/',
+      vehiclepayment_apiUrl:'http://ridgemall.syfe.co.ke/apipushpayment/',
       branding: MallBranding(
         primary: const Color(0xFF0D47A1),
         secondary: const Color(0xFF90CAF9),
@@ -88,6 +90,7 @@ class MallService {
       longitude: 36.8500,  // mock coords
       proximityRadiusMeters: 800,
       vehicleinfo_apiUrl:'http://ridgemall.syfe.co.ke/apidetails/',
+      vehiclepayment_apiUrl:'http://ridgemall.syfe.co.ke/apipushpayment/',
       branding: MallBranding(
         primary: const Color(0xFF4E342E),
         secondary: const Color(0xFFD7CCC8),

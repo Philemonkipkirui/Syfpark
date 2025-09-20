@@ -35,14 +35,7 @@ class VehicleService {
           }
         }
 
-        return {
-          'Plate': vehicleData['plateNumber'] as String?,
-          'TimeIn': vehicleData['timeIn'] as String?,
-          'TimeOut': vehicleData['timeOut'] as String?,
-          'Location': vehicleData['parkingLocation'] as String?,
-          'Duration': vehicleData['timeInMinutes']?.toString()??'N/A',
-          'Amount': vehicleData['amountPaid']?.toString()??'N/A',
-        };
+        return decoded; // Return the full decoded response
       } else {
         print('API returned status code: ${response.statusCode}');
         return null;

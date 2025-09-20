@@ -42,6 +42,7 @@ class Mall {
   final MallBranding branding;
   final List<MallAd> ads;
   final String vehicleinfo_apiUrl;
+  final String vehiclepayment_apiUrl;
 
   const Mall({
     required this.id,
@@ -52,5 +53,6 @@ class Mall {
     required this.branding,
     required this.ads,
     required this.vehicleinfo_apiUrl,
+    required this.vehiclepayment_apiUrl, 
   });
 }

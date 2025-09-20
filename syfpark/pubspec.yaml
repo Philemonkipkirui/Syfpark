@@ -43,7 +43,10 @@ dependencies:
   firebase_core: ^3.6.0  
   firebase_auth: ^5.3.1  
   google_sign_in: ^6.2.1 
-  #sign_in_with_apple: ^6.1.1
+  sign_in_with_apple: ^6.1.1
+  crypto: ^3.0.5
+  google_fonts: ^6.2.1
+  cloud_firestore: ^5.6.12
 
 
 dev_dependencies:
@@ -74,7 +77,7 @@ flutter:
     - assets/images/brand3.jpeg
     - assets/logos/geeko.png
     - assets/logos/google.png
-    - assets/logos/apple.png
+    - assets/logos/Apple.png
     - assets/images/hero/ridgeways_hero.jpg
 
   # To add custom fonts to your application, add a fonts section here,
